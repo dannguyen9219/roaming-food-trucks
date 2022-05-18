@@ -1,5 +1,7 @@
 import './App.css';
 import HomePage from '../HomePage/HomePage';
+import LoginPage from '../LoginPage/LoginPage';
+import AuthPage from '../AuthPage/AuthPage';
 import * as FoodtruckAPI from '../../utilities/foodTruck-api'
 import {useState, useEffect} from 'react'
 
@@ -20,7 +22,9 @@ function App() {
 
   return (
     <div className="App">
-   <HomePage foodTrucks={foodTrucks} />
+      <AuthPage />
+      {/* <HomePage foodTrucks={foodTrucks} />
+      <LoginPage /> */}
     </div>
   );
 }

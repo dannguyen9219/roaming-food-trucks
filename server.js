@@ -10,8 +10,8 @@ app.use(express.json());
 
 app.use(require('./config/checkToken'));
 
-app.use('/users', require('./routes/users'));
-app.use('/foodtrucks', require('./routes/foodTrucks'));
+app.use('/api/users', require('./routes/users'));
+// app.use('/foodtrucks', require('./routes/foodTrucks'));
 // app.use('/review', require('./routes/review'));
 
 app.get('/*', function (req, res) {
