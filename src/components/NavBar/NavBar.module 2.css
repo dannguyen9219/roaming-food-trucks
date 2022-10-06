@@ -1,0 +1,26 @@
+
+.anchor {
+    text-decoration: none;
+    font-size: 15px;
+    margin: 7px;
+}
+
+.logo{
+    height: 35px;
+}
+
+.link{
+    text-decoration: none;
+    font-weight:300;
+}
+
+.fixedNavbar {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom:2px solid var(--darkgray);
+    padding:0;
+    box-shadow: 0px -2px 15px var(--darkgray);
+    height:85px;
+}
